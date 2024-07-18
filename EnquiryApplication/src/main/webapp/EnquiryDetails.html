@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+	<form name="Enquiry" action="enq" method="POST">
+
+		<div class="container">
+			<div class="CName">
+				<label for="course">Select from the Course</label> <select
+					id="course" name="course">
+					<option value="" disabled selected hidden>Select a course</option>
+					<option value="Java Full Stack Developer">Java Full Stack
+						Developer</option>
+					<option value="Software Testing">Software Testing</option>
+					<option value="C Programming">C Programming</option>
+					<option value="Dot Net Full Stack Developer">Dot Net Full
+						Stack Developer</option>
+					<option value="Aptitude">Aptitude</option>
+					<option value="Python Full Stack Developer">Python Full
+						Stack Developer</option>
+					<option value="MERN Stack Developer">MERN Stack Developer</option>
+				</select>
+			</div>
+
+			<div class="names">
+				<div class="FName">
+					<h3>First Name</h3>
+					<input type="text" value="" name="fname"
+						placeholder="Enter First Name">
+				</div>
+				<div class="MName">
+					<h3>Middle Name</h3>
+					<input type="text" value="" name="mname"
+						placeholder="Enter Middle Name">
+				</div>
+				<div class="LName">
+					<h3>Last Name</h3>
+					<input type="text" value="" name="lname"
+						placeholder="Enter Last Name">
+				</div>
+
+			</div>
+
+			<div class="middle">
+				<div class="EnquiryDate">
+					<h3>Enquiry Date</h3>
+					<input type="date" value="" name="enqdate">
+				</div>
+				<div class="AdmissionDate">
+					<h3>Expected Admission Date</h3>
+					<input type="date" value="" name="admdate">
+				</div>
+				<div class="email">
+					<h3>Email</h3>
+					<input type="email" value="" name="email" placeholder="Enter Email">
+				</div>
+				<div class="Contact">
+					<h3>Contact(Preferably Whatsapp)</h3>
+					<input type="number" value="" name="contact"
+						placeholder="Enter Contact">
+				</div>
+				<div class="College">
+					<h3>College</h3>
+					<input type="text" value="" name="college"
+						placeholder="Enter College">
+				</div>
+				<div class="University">
+					<h3>University</h3>
+					<input type="text" value="" name="univ"
+						placeholder="Enter University">
+				</div>
+			</div>
+
+			<div class="address">
+				<h3>Address</h3>
+				<textarea name="address" placeholder="Enter your address"></textarea>
+			</div>
+
+			<div class="last">
+				<div class="Reference">
+					<label for="reference">Reference</label> <select id="reference"
+						name="reference">
+						<option value="" disabled selected hidden>Please select</option>
+						<option value="SocialMedia">Social Media</option>
+						<option value="Friends">Friends</option>
+						<option value="Relative">Relative</option>
+						<option value="Workshop or Seminar">Workshop or Seminar</option>
+						<option value="Any other marketig">Any other Marketing</option>
+					</select>
+				</div>
+				<div class="Candidate">
+					<label for="candidate">Candidate Type</label> <select
+						id="candidate" name="candidate">
+						<option value="" disabled selected hidden>Please select</option>
+						<option value="Fresher">Fresher</option>
+						<option value="Job Seeker">Job Seeker</option>
+						<option value="Working Professional">Working Professional</option>
+
+					</select>
+				</div>
+			</div>
+
+			<button type="submit">Submit</button>
+		</div>
+
+	</form>
+
+</body>
+</html>
